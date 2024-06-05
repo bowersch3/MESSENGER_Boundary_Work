@@ -373,7 +373,7 @@ def read_in_Sun_files(scf):
     def generate_crossing_dataframe(cross,typ,eph=False):
         import numpy as np
         import pandas as pd
-        from trying3 import convert_to_datetime
+
         
         cross_start=cross[0,:]
         
